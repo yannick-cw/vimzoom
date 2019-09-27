@@ -2,11 +2,13 @@
 
 Minimal plugin to allow tmux like zooming in and out of windows
 
-## Install
+![zoom](./zoom.gif)
+
+### Installation
 With vimplug:
 `Plug 'yannick-cw/vimzoom'`
 
-![zoom](./zoom.gif)
+### Usage
 
 The plugin gives you a `:Zoom` command that opens the focused window in a new tab. Executing the `:Zoom` command again closes that tab.
 
@@ -29,7 +31,7 @@ You might want to add a keymapping like
 
 `nnoremap <leader>z :Zoom<CR>`
 
-## Config
+### Config
 
 If you want to not have the tabbar closed in the zoomed in window, you can overwrite that behaviour with
 ```vim
